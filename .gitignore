@@ -1,0 +1,53 @@
+# Model weights and external repositories
+weights/
+Pixal3D-master/
+NAF/
+TRELLIS.2/
+
+# Inputs, generated models and runtime state
+data/
+input/
+output/
+outputs/
+work/
+submission/
+pipeline/data/
+pipeline/work/
+pipeline/submission/
+pipeline/manual/
+pipeline/*.zip
+
+# 3D/image artifacts
+*.glb
+*.gltf
+*.obj
+*.ply
+*.stl
+*.blend
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.onnx
+*.npz
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+
+# Python/cache
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment/editor
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
